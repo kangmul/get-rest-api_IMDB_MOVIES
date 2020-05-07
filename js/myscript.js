@@ -1,3 +1,4 @@
+console.log('ok')
 function cariFilms(){
     $("#daftarfilm").html('');
     $.ajax({
