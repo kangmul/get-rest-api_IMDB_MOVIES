@@ -3,9 +3,9 @@ function cariFilms(){
     $("#daftarfilm").html('');
     $.ajax({
         ajaxURL: 'https://www.omdbapi.com/',
-        ajaxTYPE: 'get',
-        ajaxDATATYPE: 'json',
-        ajaxDATA: {
+        type: 'get',
+        dataType: 'json',
+        data: {
             'apikey': 'fcebf156',
             's': $('#textCariFilm').val(),
         },
