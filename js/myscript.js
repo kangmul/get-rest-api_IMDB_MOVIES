@@ -2,7 +2,7 @@ console.log('ok');
 function cariFilms(){
     $("#daftarfilm").html('');
     $.ajax({
-        url: 'https://www.omdbapi.com/',
+        url: 'http://www.omdbapi.com/',
         type: 'get',
         dataType: 'json',
         data: {
